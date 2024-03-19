@@ -24,6 +24,7 @@ public class TwoSum {
                 if(arr[j]==temp) {
                     b = arr[j];
                     break;
+                    //adding a minor change of git
                 }
             }
         }
