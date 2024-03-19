@@ -14,22 +14,21 @@ public class TwoSum {
         int sum=28;
         //brute force
         // O(n^2)
-        int a ,b, temp;
+        int a =-1,b=-1, temp;
         for(int i=0;i<n-1;i++)
         {
-            a=arr[i];
-            temp  = sum-a;
+            a=i;
+            temp  = sum-arr[i];
             for(int j=i+1;j<n;j++)
             {
                 if(arr[j]==temp) {
-                    b = arr[j];
+                    b = j;
                     break;
                     //adding a minor change of git
                 }
             }
         }
-        System.out.print
-        ("Pair using Brute Force"+ a+","+b);
+        System.out.println("Pair using Brute Force"+ a+","+b);
 
 
         //using hashmap
