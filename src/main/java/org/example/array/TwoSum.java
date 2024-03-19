@@ -7,7 +7,7 @@ package org.example.array;
 public class TwoSum {
 
 
-    public static void main(String[] args) {
+    public void  twoSumMethod(){
 
         int[] arr  =  {5,7,8,13, 1,6, 20,21};
         int n =  arr.length;
